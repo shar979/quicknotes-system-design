@@ -1,0 +1,21 @@
+
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #f9f9f9; color: #333; }
+header { text-align: center; margin-bottom: 20px; }
+section { background: #fff; padding: 15px 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.field { margin-bottom: 12px; display: flex; flex-direction: column; }
+label { font-weight: bold; margin-bottom: 4px; font-size: 0.9rem; }
+input, textarea { padding: 8px; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+textarea { resize: vertical; min-height: 80px; }
+button { padding: 10px 16px; font-size: 1rem; background: #0066cc; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+button:disabled { background: #cccccc; cursor: not-allowed; }
+button:hover:not(:disabled) { background: #004999; }
+#status { font-weight: bold; padding: 10px; border-radius: 4px; margin: 0; }
+#status.loading { background: #eef2f5; color: #333; }
+#status.success { background: #e1f5fe; color: #0277bd; border-left: 4px solid #0288d1; }
+#status.error { background: #ffebee; color: #c62828; border-left: 4px solid #d32f2f; }
+#notes-list { list-style: none; padding: 0; }
+#notes-list li { background: #fafafa; border: 1px solid #eee; padding: 12px; margin-bottom: 10px; border-radius: 6px; position: relative; }
+#notes-list li h3 { margin: 0 0 6px 0; color: #111; }
+#notes-list li p { margin: 0 0 10px 0; color: #555; }
+.delete-btn { background: #d32f2f; padding: 6px 12px; font-size: 0.85rem; }
+.delete-btn:hover:not(:disabled) { background: #b71c1c; }
